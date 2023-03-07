@@ -46,7 +46,7 @@ app.get('/secret', async (req, res) => {
       }
     });
   } else {
-    res.send('You have access the Proxy Wallet');
+    res.send('No wallet Access No NFT found');
   }
 });
 app.listen(port, () => {
